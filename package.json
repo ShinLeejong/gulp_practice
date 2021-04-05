@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "gulp-cli": "^2.3.0"
   },
   "name": "gulp_practice",
   "version": "1.0.0",
@@ -13,6 +12,10 @@
     "dev": "gulp dev"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/register": "^7.13.14",
+    "gulp-cli": "^2.3.0"
   }
 }
